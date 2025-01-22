@@ -1,0 +1,30 @@
+study-group-finder/
+│
+├── css/
+│   └── styles.css                  # 網站的樣式文件
+│
+├── js/
+│   └── scripts.js                  # JavaScript 檔案，用於 AJAX 和互動功能
+│
+├── php/
+│   ├── db.php                      # 資料庫連線文件
+│   ├── register.php                # 處理用戶註冊（公開頁面）
+│   ├── login.php                   # 處理用戶登入（公開頁面）
+│   ├── logout.php                  # 處理用戶登出（私有功能）
+│   ├── create_group.php            # 建立新的學習小組（私有功能）
+│   ├── join_group.php              # 允許用戶加入學習小組（私有功能）
+│   ├── chat.php                    # 處理即時聊天（私有功能）
+│   ├── fetch_groups.php            # 取得可用小組以供展示（私有功能）
+│   ├── admin_dashboard.php         # 管理員或小組組長使用的管理工具（私有頁面，未實現）
+│   ├── schedule_session.php        # 安排學習會議（私有功能）
+│   ├── fetch_chat_messages.php     # 取得聊天訊息，用於即時顯示（私有功能）
+│   ├── remove_member.php           # 移除小組成員的功能（私有功能）
+│   ├── delete_group.php           
+│   ├── leave_group.php           
+│
+├── index.php                       # 主頁，包含登入和註冊表單（公開頁面）
+├── dashboard.php                   # 主面板頁面，用戶查看小組和排程（私有頁面）
+├── group.php                       # 小組頁面，顯示成員列表、聊天、會議排程、成員管理（私有頁面）
+│
+└── sql/
+    └── create_tables.sql           # SQL 檔案，用於建立資料庫表
