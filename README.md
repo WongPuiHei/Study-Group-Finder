@@ -219,7 +219,18 @@ We welcome contributions! Please follow these steps:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Copyright (c) 2024 Pui Hei Wong
+
+This project is licensed under the MIT License. This means you are free to:
+- Use this code commercially
+- Modify this code
+- Distribute this code
+- Use this code privately
+- Sublicense this code
+
+See the [LICENSE](LICENSE) file for full details.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Support
 
